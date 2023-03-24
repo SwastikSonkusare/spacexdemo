@@ -1,0 +1,40 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    width: 50rem;
+}
+
+.modal-btn {
+    background-color: red;
+    padding: 1rem 2rem;
+    margin: auto;
+    color: #fff;
+    width: 200px;
+    font-size: 1.5rem;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 40em) {
+    .modal {
+        max-width: 40rem;
+    }
+}
